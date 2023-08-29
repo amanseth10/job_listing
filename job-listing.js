@@ -1,4 +1,5 @@
-// body...
+
+  // body...
   document.addEventListener("click",function manage(e){
   let tag = e.target.textContent;
   if (e.target.classList.contains('button')) {
@@ -48,7 +49,7 @@ function filterTag(tag) {
   // create tag codes
   let filterTagCodes = `
             <h3 class="filter-txt">${tag}</h3>
-            <img src="icon-remove.png" alt="" class="btn-delete">`;
+            <img src="ico-remove.png" alt="" class="btn-delete">`;
   // create element div tag
   const div = document.createElement('div');
   div.classList.add('filter-tag');
