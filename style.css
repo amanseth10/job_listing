@@ -163,28 +163,24 @@ opacity: 0;
   column-gap: 5px;
 }
 
-.filter{
+.filter-tag {
   display: flex;
   align-items: center;
+  background: var(--light-grayish-cyan-filter-tablets);
   border-radius: .25em;
   overflow: hidden;
-  border-radius: 20px;
-  border-color: rgb(0, 166, 147,0.2);
 }
-.filter_items {
+.filter-txt {
   font-size: .92rem;
   color: var(--desaturated-dark-cyan);
   padding: 0 .5em;
-  background-color: rgb(0, 166, 147,0.2);
 }
-#delete {
-  height: .92rem;
-  width: .92rem;
+.btn-delete {
+  width: max-content;
+  height: max-content;
   padding: .5em;
+  background: var(--desaturated-dark-cyan);
   transition: .2s;
-}
-.delete:hover{
-cursor: pointer;
 }
 .clear {
   color: var(--dark-grayish-cyan);
