@@ -176,11 +176,16 @@ opacity: 0;
   padding: 0 .5em;
 }
 .btn-delete {
-  width: max-content;
-  height: max-content;
+  /* width: max-content;
+  height: max-content; */
+  width: 0.7rem;
+  height: 0.7rem;
   padding: .5em;
-  background: var(--desaturated-dark-cyan);
+  /* background: var(--desaturated-dark-cyan); */
   transition: .2s;
+}
+.btn-delete:hover{
+  cursor: pointer;
 }
 .clear {
   color: var(--dark-grayish-cyan);
