@@ -180,7 +180,6 @@ opacity: 0;
   height: max-content; */
   width: 0.7rem;
   height: 0.7rem;
-  padding: .5em;
   /* background: var(--desaturated-dark-cyan); */
   transition: .2s;
 }
